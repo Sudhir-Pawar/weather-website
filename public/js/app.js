@@ -1,5 +1,3 @@
-console.log("Javascript is loaded");
-
 const form = document.querySelector("form");
 const search = document.querySelector("form input");
 const heading = document.querySelector("#location");
