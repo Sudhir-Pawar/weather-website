@@ -12,7 +12,7 @@ form.addEventListener("submit", (e) => {
 const getWeather = (address) => {
   heading.textContent = "Loading...";
   weatherMsg.textContent = "";
-  fetch(`http://localhost:3000/weather?address=${address}`)
+  fetch(`/weather?address=${address}`)
     .then((dataJSON) => {
       dataJSON.json().then((data) => {
         if (data.error) {
